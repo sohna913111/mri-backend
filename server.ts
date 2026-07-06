@@ -184,7 +184,7 @@ async function callGroqAPI(prompt: string): Promise<any> {
     const err = await response.text();
     throw new Error(`Groq API Error: ${response.status} - ${err}`);
   }
-  const data = await response.json();
+  const data: any = await response.json();
   return JSON.parse(data.choices[0].message.content);
 }
 
