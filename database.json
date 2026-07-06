@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "email": "trustswereowne23423r@gmail.com",
+      "password": "passwwerwerwerord1",
+      "full_name": "TrustSphere Owner",
+      "role": "admin",
+      "created_at": "2026-07-04T00:00:00.000Z"
+    }
+  ],
+  "analyses": [],
+  "profiles": [],
+  "rules": {
+    "service_page": {
+      "Primary Keyword in H1": "Required",
+      "Primary Keyword in First 100 Words": "Required",
+      "Primary Keyword in at Least 1 H2": "Required",
+      "EEAT Signals": "Required",
+      "CTA": "Required",
+      "Brand Name in Introduction": "Required",
+      "Brand Name Throughout Content": "3-5 Times"
+    },
+    "landing_page": {
+      "Primary Keyword in H1": "Required",
+      "CTA": "Critical",
+      "EEAT Signals": "Required",
+      "Brand Name in H1": "Required"
+    },
+    "blog": {
+      "Primary Keyword in H1": "Required",
+      "Primary Keyword in First 100 Words": "Required",
+      "FAQ": "7-10 Required"
+    },
+    "default": {
+      "Primary Keyword in H1": "Required",
+      "EEAT Signals": "Required",
+      "CTA": "Recommended"
+    }
+  },
+  "settings": {}
+}
